@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushroom Classifier Result</title>
+    <link rel="stylesheet" href="/static/style2.css">
+</head>
+<body>
+    <div class="outerbody"></div>
+    <div class="innerbody">
+        <div class="innerbody2">
+            <div class="heading">Result</div>
+            <hr>
+            {% if prediction == 0 %}
+                <div class="result">Mushroom Predicted is poisonous<br><img src="static/path_to_poisonous_mushroom.jpeg" alt="poisonous_mushroom" class="poisonous-logo"></div>
+            {% else %}
+                <div class="result">Mushroom Predicted is edible<br><img src="static/edible_mushrrom.jpg" alt="edible_mushroom" class="edible-logo"></div>
+            {% endif %}
+            <div class="close">
+                <a href="/">Close</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
