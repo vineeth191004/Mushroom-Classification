@@ -44,6 +44,7 @@ Pass the preprocessed inputs to the model to get predictions. Map the prediction
 Return the prediction results to the user via an HTML page.
 
 # File Structure
+
 .
 ├── app.py                     # Flask application file
 ├── Data_pca.pickle            # Saved PCA object
