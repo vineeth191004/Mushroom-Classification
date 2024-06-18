@@ -1,5 +1,21 @@
-## Mushroom Classification and Flask Deployment
+### Mushroom Classification and Flask Deployment
 This project involves predicting whether a given mushroom is edible or poisonous based on various features such as cap shape, cap color, gill size, and habitat. The machine learning model is deployed using Flask, allowing users to interact with the model via a web interface.
+
+# Repository Structure
+
+```plaintext
+.
+├── app.py                     # Flask application file
+├── Data_pca.pickle            # Saved PCA object
+├── Data_saved.pickle          # Saved machine learning model
+├── templates
+│   ├── index.html             # HTML form for user input
+│   └── result.html            # HTML page for displaying prediction results
+└── static
+    ├── style.css              # CSS for styling the HTML pages
+    ├── edible_mushroom.jpg    # Image displayed for edible mushrooms
+    └── poisonous_mushroom.jpg # Image displayed for poisonous mushrooms
+```
 
 # Mushroom Classification
 Mushroom classification involves the following steps:
@@ -42,22 +58,3 @@ Pass the preprocessed inputs to the model to get predictions. Map the prediction
 
 6. **Display Results**
 Return the prediction results to the user via an HTML page.
-
-# File Structure
-
-### File Structure
-
-```plaintext
-.
-├── app.py                     # Flask application file
-├── Data_pca.pickle            # Saved PCA object
-├── Data_saved.pickle          # Saved machine learning model
-├── templates
-│   ├── index.html             # HTML form for user input
-│   └── result.html            # HTML page for displaying prediction results
-└── static
-    ├── style.css              # CSS for styling the HTML pages
-    ├── edible_mushroom.jpg    # Image displayed for edible mushrooms
-    └── poisonous_mushroom.jpg # Image displayed for poisonous mushrooms
-```
-
