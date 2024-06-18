@@ -5,6 +5,8 @@ This project involves predicting whether a given mushroom is edible or poisonous
 
 ```plaintext
 .
+|--- mushroom_classifier.ipynb  # Training mushroom classification model
+|--- mushroom.csv               # dataset for classifying mushroom
 ├── app.py                     # Flask application file
 ├── Data_pca.pickle            # Saved PCA object
 ├── Data_saved.pickle          # Saved machine learning model
