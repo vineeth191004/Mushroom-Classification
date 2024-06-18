@@ -45,14 +45,5 @@ Return the prediction results to the user via an HTML page.
 
 # File Structure
 
-.
-├── app.py                     # Flask application file
-├── Data_pca.pickle            # Saved PCA object
-├── Data_saved.pickle          # Saved machine learning model
-├── templates
-│   ├── index.html             # HTML form for user input
-│   └── result.html            # HTML page for displaying prediction results
-└── static
-    ├── style.css              # CSS for styling the HTML pages
-    ├── edible_mushroom.jpg    # Image displayed for edible mushrooms
-    └── poisonous_mushroom.jpg # Image displayed for poisonous mushrooms
+![image](https://github.com/vineeth191004/Mushroom-Classification/assets/142156630/b41972df-ef42-4a4c-9a47-730649c21fab)
+
