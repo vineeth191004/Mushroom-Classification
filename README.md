@@ -22,22 +22,22 @@ This project involves predicting whether a given mushroom is edible or poisonous
 # Mushroom Classification
 Mushroom classification involves the following steps:
 
-1. **Data Collection**
+1. **Data Collection** :-
 Gather data containing various attributes of mushrooms, including their edibility.
 
-2. **Data Preprocessing**
+2. **Data Preprocessing** :-
 Handle missing values, encode categorical variables using techniques like Label Encoding, and normalize/standardize numerical features.
 
-3. **Feature Selection/Reduction**
+3. **Feature Selection/Reduction** :-
 Use techniques like Principal Component Analysis (PCA) to reduce the dimensionality of the dataset while retaining the most informative features.
 
-4. **Model Training**
+4. **Model Training** :-
 Train a machine learning model, such as a RandomForestClassifier, on the preprocessed dataset to learn patterns associated with edible and poisonous mushrooms.
 
-5. **Model Evaluation**
+5. **Model Evaluation** :-
 Evaluate the model's performance using metrics like accuracy, precision, and recall on a test set to ensure it generalizes well to unseen data.
 
-6. **Model Saving**
+6. **Model Saving** :-
 Save the trained model and any preprocessing objects (e.g., PCA) to disk using libraries like pickle for later use.
 
 # Flask Deployment
